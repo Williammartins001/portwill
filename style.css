@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    overflow: hidden;
+
+}
+
+.backgound {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-image: url(SITE.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+   
+
+}
+
+.cabeçalho-link a {
+    color: #fff;
+    font-size: 12px;
+}
+
+.cabeçalho-link a:hover{
+    color: #fff;
+    transition: 0.3s all;
+
+}
+
+.logo i{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button{
+color: #bdff23;
+background: fixed;
+border: solid 1px #bdff23;
+padding: 5px;
+border-radius: 15px;
+font-size: 12px;
+width: 150px;
+cursor: col-resize;
+}
+
+button:hover{
+    background-color: #bdff23;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.container-text {
+    padding: 190px 0px 0px 120px;
+}
+
+.text h3{
+    color: #fff;
+    font-size: 30px;
+}
+
+.text h1 {
+    color: #bdff23;
+    margin-top: 15px;
+    font-size: 50px;
+}
+
+.text span{
+    color: #fff;
+}
+
+.text p{
+    color: #fff;
+    font-size:25px ;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.redes-sociais a{
+    color: #fff;
+    padding: 30px;
+    margin-top: 35px;
+    font-size: 50px;
+}
+
+
+.redes-sociais{
+    margin-top: 20px;
+}
